@@ -45,5 +45,10 @@ namespace Gym
         {
 
         }
+
+        private void tabPage_HoiVien_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

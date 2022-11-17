@@ -85,6 +85,7 @@
             this.tabPage_HoiVien.TabIndex = 0;
             this.tabPage_HoiVien.Text = "Hội viên";
             this.tabPage_HoiVien.UseVisualStyleBackColor = true;
+            this.tabPage_HoiVien.Click += new System.EventHandler(this.tabPage_HoiVien_Click);
             // 
             // tabPage_SanPham
             // 
