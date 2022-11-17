@@ -28,21 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.button_DangXuat = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Gym.Properties.Resources.gym_banner1;
-            this.pictureBox1.Location = new System.Drawing.Point(90, 10);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(423, 141);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // button_DangXuat
             // 
@@ -50,13 +39,24 @@
             this.button_DangXuat.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.button_DangXuat.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button_DangXuat.ForeColor = System.Drawing.Color.DarkViolet;
-            this.button_DangXuat.Location = new System.Drawing.Point(12, 304);
+            this.button_DangXuat.Location = new System.Drawing.Point(12, 319);
             this.button_DangXuat.Name = "button_DangXuat";
             this.button_DangXuat.Size = new System.Drawing.Size(84, 38);
             this.button_DangXuat.TabIndex = 10;
             this.button_DangXuat.Text = "Đăng xuất";
             this.button_DangXuat.UseVisualStyleBackColor = false;
             this.button_DangXuat.Click += new System.EventHandler(this.button_DangXuat_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Gym.Properties.Resources.gym_banner_main;
+            this.pictureBox1.Location = new System.Drawing.Point(0, -1);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(639, 90);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // FormMain
             // 
